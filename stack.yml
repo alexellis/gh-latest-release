@@ -1,3 +1,5 @@
+# gh-latest-release
+
 provider:
   name: faas
   gateway: http://localhost:8080
