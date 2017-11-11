@@ -13,4 +13,4 @@ functions:
     handler: ./nameexists
     image: alexellis/nameexists:0.1
 
-# A commit event will build, ship and run your functions.
+# A commit event will build, ship and run your functions
