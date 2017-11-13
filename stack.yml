@@ -9,7 +9,11 @@ functions:
     lang: python
     handler: ./release
     image: alexellis/release:latest
-
+  releases:
+    lang: python
+    handler: ./release
+    image: alexellis/releases:latest
+    
   nameexists:
     lang: node
     handler: ./nameexists
