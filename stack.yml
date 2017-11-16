@@ -19,6 +19,9 @@ functions:
     lang: node
     handler: ./nameexists
     image: alexellis/nameexists:0.1
-
+  asciilogo:
+    lang: node
+    handler: ./asciilogo
+    image: asciilogo
 
 # A commit event will build, ship and run your functions
