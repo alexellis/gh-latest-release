@@ -15,10 +15,10 @@ functions:
     handler: ./release
     image: alexellis/releases:latest
     
-  nameexists:
-    lang: node
-    handler: ./nameexists
-    image: alexellis/nameexists:0.1
+#  nameexists:
+#    lang: node
+#    handler: ./nameexists
+#    image: alexellis/nameexists:0.1
   asciilogo:
     lang: node
     handler: ./asciilogo
