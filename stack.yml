@@ -10,7 +10,6 @@ functions:
     handler: ./release
     image: alexellis/release:latest
     
-    
   releases:
     lang: python
     handler: ./release
