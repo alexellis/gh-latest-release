@@ -7,6 +7,7 @@ module.exports = (context, callback) => {
         if(err) {
             return callback(undefined, err.toString());    
         }
+        
         callback(undefined, val);
     });
 }
