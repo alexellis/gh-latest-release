@@ -3,7 +3,7 @@
 const figlet = require('figlet');
 
 module.exports = (context, callback) => {
-    figlet(context + ".com", (err, val) => {
+    figlet(context, (err, val) => {
         if(err) {
             return callback(undefined, err.toString());    
         }
